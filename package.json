@@ -1,0 +1,26 @@
+{
+  "name": "notebackend",
+  "version": "0.0.1",
+  "description": "Osa3tehtava",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "\"echo \\\"Error: no test specified\\\" && exit1\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "Osa3"
+  },
+  "author": "Jaakko Vikström",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
